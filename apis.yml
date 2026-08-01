@@ -1,7 +1,30 @@
 aid: sonans
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sonans.png
 name: Sonans
-description: Sonans is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Sonans is an AI software company building an intelligence layer for fashion
+  merchandising. Its collaborative AI agents replace manual coordination with
+  autonomous workflows that bridge buying decisions and cross-functional
+  execution, turning raw design sketches and purchase orders into
+  production-ready assets including photorealistic product imagery, marketing
+  copy, and catalog data synchronized across ERPs, Shopify, and B2B commerce
+  platforms. Sonans serves fashion brands and designers (streamlining design
+  cycles, asset enrichment, and multi-channel product launches) as well as
+  retailers and merchants (automating assortment planning, catalog enrichment,
+  and inventory management). The company is backed by 500 Global. As of this
+  enrichment pass Sonans operates a web application at app.sonans.ai but
+  publishes no public API, developer portal, or developer documentation.
 url: https://raw.githubusercontent.com/api-evangelist/sonans/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- AI Agents
+- Fashion
+- Merchandising
+- Retail
+- E-Commerce
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +50,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/sonans-domain-security.yml
 - type: Website
   url: https://sonans.ai
+- type: SignUp
+  url: https://app.sonans.ai
+- type: PrivacyPolicy
+  url: https://sonans.ai/privacy/privacy.html
+- type: TermsOfService
+  url: https://sonans.ai/tos/tos.html
+- type: LinkedIn
+  url: https://www.linkedin.com/company/sonans/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
